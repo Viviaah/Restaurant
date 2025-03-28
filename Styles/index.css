@@ -1,6 +1,18 @@
+main {
+    background: whitesmoke;
+    margin: 30px 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(128, 128, 128);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
 .intro {
     text-align: center;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .intro div {
@@ -15,17 +27,6 @@
     padding: 0;
 }
 
-main {
-    background: whitesmoke;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 4px 4px 10px rgb(128, 128, 128);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-}
 
 .hero {
     background: url('../images/767093.jpg') no-repeat center center/cover;
@@ -101,9 +102,6 @@ main {
     position: relative;
 }
 
-.highlight-item:hover {
-    scale: 1.05;
-}
 
 .highlight-item p {
     text-align: center;
@@ -128,3 +126,49 @@ main {
     -ms-transform: translate(20px,-20px);
     -o-transform: translate(20px,-20px);
 }
+
+.specials-desc {
+    text-align: center;
+    margin: 20px 0;
+}
+/* Style de base pour la section specials-list */
+.specials-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.special-item {
+    flex: 1 1 calc(33.333% - 20px); /* 3 items par ligne */
+    max-width: calc(33.333% - 20px);
+    text-align: center;
+}
+
+.special-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.special-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.special-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
