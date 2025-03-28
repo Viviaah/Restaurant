@@ -1,0 +1,145 @@
+/* Reset de base */
+body, h1, h2, h3, p, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Section Contact */
+.contact {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact input:focus, .contact textarea:focus {
+    border-color: #512919;
+    box-shadow: 0 0 5px rgba(103, 42, 13, 0.5);
+}
+
+.contact button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Section Commande */
+.commande {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.commande h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ede5e5;;
+    text-align: center;
+}
+
+.commande .menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;}
+
+.commande {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.commande button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #030303;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.commande button:hover {
+    background-color: #020414;
+}
+.commande label{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+.commande input, .commande textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 10px;
+    outline: none;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
